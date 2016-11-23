@@ -1,0 +1,19 @@
+ouvrir shell 
+
+cd ./dirrectory // ouvrir repertoire du projet
+
+git status // connaitre l'etat des modifications
+
+git pull // recuperer derniére version
+
+modifications sur master locales
+
+git add * // pour charger l'ensemble des fichiers modifiés et ajoutés au projet local
+
+git add ./file_location/file.ext // pour charger un fichier specifique
+
+git pull // recuper derniére version
+
+git commit // pre-chargement du push
+
+git push // uplaud de toutes les modifications prechargées
