@@ -23,7 +23,7 @@ public class Uv : MonoBehaviour
     void Update()
     {
         float offset = Time.time * m_scrollSpeed;
-        Vector2 vector2Offset = new Vector2();
+        Vector2 vector2Offset = m_rend.material.GetTextureOffset( "_MainTex" );
         switch (m_choice)
         {
             case e_XY.X:
